@@ -12,7 +12,6 @@ public class audiomanager : MonoBehaviour
     [SerializeField] AudioSource walkSource; // Slot baru untuk suara jalan looping
 
     [Header("---------- Audio Clips ----------")]
-    public AudioClip BGMMusic;
     public AudioClip buttonClick;
     public AudioClip walkSound;
     public AudioClip WinSound;
