@@ -7,6 +7,7 @@ namespace Barongslay.Core.SpriteFacing
     public class SpriteFacingController : MonoBehaviour
     {
         [SerializeField] Transform headPlayerTransform, tailPlayerTransform;
+        [SerializeField] Transform thirdPartTransform;
         // [SerializeField] Transform headPlayerSpriteObject, tailPlayerSpriteObject;
 
         void Update()
@@ -16,11 +17,19 @@ namespace Barongslay.Core.SpriteFacing
             {
                 headPlayerTransform.localScale = new Vector3(1, 1, 1);
                 tailPlayerTransform.localScale = new Vector3(1, 1, 1);
+                if (thirdPartTransform != null)
+                {
+                    thirdPartTransform.localScale = new Vector3(1, 1, 1);
+                }
             }
             else
             {
                 headPlayerTransform.localScale = new Vector3(-1, 1, 1);
                 tailPlayerTransform.localScale = new Vector3(-1, 1, 1);
+                if (thirdPartTransform != null)
+                {
+                    thirdPartTransform.localScale = new Vector3(-1, 1, 1);
+                }
             }
         }
 
