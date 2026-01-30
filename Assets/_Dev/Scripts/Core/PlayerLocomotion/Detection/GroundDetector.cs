@@ -38,6 +38,7 @@ namespace Barongslay.Core.PlayerLocomotion.Detection
                 PerformSinglePointCheck();
             }
 
+            Debug.Log("[GroundDetector] IsGrounded: " + IsGrounded);
             stateContext.IsGrounded = IsGrounded;
         }
 
