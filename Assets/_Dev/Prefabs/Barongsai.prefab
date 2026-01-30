@@ -95,7 +95,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c782025a8689b324bbaa19646cd677c6, type: 3}
+  m_Sprite: {fileID: 2545557195039797645, guid: cd32b2b2c5b7e2842857604b50038252, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anchorA: {fileID: 4722150945939608067}
   anchorB: {fileID: 6589866409601712913}
-  spriteWidthInUnits: 0.5
+  spriteWidthInUnits: 1
   thickness: 1
 --- !u!1 &4758040951096631795
 GameObject:
@@ -252,6 +252,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4911734020423806605, guid: baefb127641ae9b4685e8664271195b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4911734020423806605, guid: baefb127641ae9b4685e8664271195b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5909833345178968186, guid: baefb127641ae9b4685e8664271195b0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7081552839484519012, guid: baefb127641ae9b4685e8664271195b0, type: 3}
       propertyPath: m_Name
       value: PlayerTwo
@@ -284,6 +296,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9108837509637453229}
     m_Modifications:
+    - target: {fileID: 626678121492443303, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626678121492443303, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.173
+      objectReference: {fileID: 0}
+    - target: {fileID: 3740837623506434550, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6295818812762014056, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
       propertyPath: m_Name
       value: PlayerOne
