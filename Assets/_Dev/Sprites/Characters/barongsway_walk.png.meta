@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: cd32b2b2c5b7e2842857604b50038252
+guid: b7bb50b785c0f1a4daa006d598f7b932
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1407996884488383585
-    second: barongsway_idle_0
+      213: 3828000020878650391
+    second: barongsway_walk_0
   - first:
-      213: 2545557195039797645
-    second: barongsway_idle_1
+      213: 1486891893960771985
+    second: barongsway_walk_1
   - first:
-      213: 4461303353952689322
-    second: barongsway_idle_2
+      213: -5424148844680218734
+    second: barongsway_walk_2
   - first:
-      213: 5893947452166264871
-    second: barongsway_idle_3
+      213: -6195379672958888291
+    second: barongsway_walk_3
   - first:
-      213: -4262586079457898865
-    second: barongsway_idle_4
+      213: 7117106649975272909
+    second: barongsway_walk_4
   - first:
-      213: -5307021841479243376
-    second: barongsway_idle_5
+      213: -8461049508697234667
+    second: barongsway_walk_5
   - first:
-      213: -4672216773415835092
-    second: barongsway_idle_6
+      213: 1287237685537954514
+    second: barongsway_walk_6
   - first:
-      213: 4266507606625327128
-    second: barongsway_idle_7
+      213: 3840998045203791879
+    second: barongsway_walk_7
   - first:
-      213: -3594208820746007932
-    second: barongsway_idle_8
+      213: -5212840388850121255
+    second: barongsway_walk_8
   - first:
-      213: -3823870915665598140
-    second: barongsway_idle_9
-  - first:
-      213: 8600065628528498564
-    second: barongsway_idle_10
-  - first:
-      213: -3814786352557257809
-    second: barongsway_idle_11
+      213: -5474027178740377226
+    second: barongsway_walk_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,24 +123,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barongsway_idle_0
+      name: barongsway_walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -161,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f93963f1b4ac57ce0800000000000000
-      internalID: -1407996884488383585
+      spriteID: 71ce8a4ccb9cf1530800000000000000
+      internalID: 3828000020878650391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_1
+      name: barongsway_walk_1
       rect:
         serializedVersion: 2
         x: 32
@@ -183,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8179cd28c2a35320800000000000000
-      internalID: 2545557195039797645
+      spriteID: 19980f6bc4082a410800000000000000
+      internalID: 1486891893960771985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_2
+      name: barongsway_walk_2
       rect:
         serializedVersion: 2
         x: 64
@@ -205,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aacdb9f63cbb9ed30800000000000000
-      internalID: 4461303353952689322
+      spriteID: 2977df73d5d89b4b0800000000000000
+      internalID: -5424148844680218734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_3
+      name: barongsway_walk_3
       rect:
         serializedVersion: 2
         x: 96
@@ -225,16 +206,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 700d09acdbb728649badf3b6faeabb77
-      internalID: 5893947452166264871
+      spriteID: d961c901307950aa0800000000000000
+      internalID: -6195379672958888291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_4
+      name: barongsway_walk_4
       rect:
         serializedVersion: 2
         x: 128
@@ -247,16 +228,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 83c4187010b87344c98971bf6a47bf03
-      internalID: -4262586079457898865
+      spriteID: dc5b8544aca05c260800000000000000
+      internalID: 7117106649975272909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_5
+      name: barongsway_walk_5
       rect:
         serializedVersion: 2
         x: 160
@@ -269,16 +250,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5540d110e5a2db34f8d9c0307948c3a9
-      internalID: -5307021841479243376
+      spriteID: 513ab17ec40549a80800000000000000
+      internalID: -8461049508697234667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_6
+      name: barongsway_walk_6
       rect:
         serializedVersion: 2
         x: 0
@@ -291,16 +272,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: adfd59e0b738f8441a1c8e970e2fe30e
-      internalID: -4672216773415835092
+      spriteID: 2da5cfbdadf2dd110800000000000000
+      internalID: 1287237685537954514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_7
+      name: barongsway_walk_7
       rect:
         serializedVersion: 2
         x: 32
@@ -313,16 +294,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1ce6adb62e9e24844bbd2a254a201322
-      internalID: 4266507606625327128
+      spriteID: 70087532f57fd4530800000000000000
+      internalID: 3840998045203791879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_8
+      name: barongsway_walk_8
       rect:
         serializedVersion: 2
         x: 64
@@ -335,16 +316,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d0c874d69ca4eb43923003dada67972
-      internalID: -3594208820746007932
+      spriteID: 9d587cff84548a7b0800000000000000
+      internalID: -5212840388850121255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_9
+      name: barongsway_walk_9
       rect:
         serializedVersion: 2
         x: 96
@@ -357,16 +338,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e1194f581fb073447a8d6f2e488a74f8
-      internalID: -3823870915665598140
+      spriteID: 679985898495804b0800000000000000
+      internalID: -5474027178740377226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_10
+      name: barongsway_walk_10
       rect:
         serializedVersion: 2
         x: 128
@@ -381,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04521393b0ebeb34eae93abe1404d322
-      internalID: 8600065628528498564
+      spriteID: 7b60381f1db68ed46890626a9e1cdb9c
+      internalID: 1358321197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_11
+      name: barongsway_walk_11
       rect:
         serializedVersion: 2
         x: 160
@@ -403,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e32e7987ea63cb4dbceeecb952ab142
-      internalID: -3814786352557257809
+      spriteID: a1118ab9f78387343b4d08fcf4078a1d
+      internalID: -116797571
       vertices: []
       indices: 
       edges: []
@@ -413,7 +394,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a1588ac220fb84241b2c0d8cf3ec5a4c
+    spriteID: 841f0ad60780beb4f8269338d26ca31a
     internalID: 0
     vertices: []
     indices: 
@@ -423,18 +404,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      barongsway_idle_0: -1407996884488383585
-      barongsway_idle_1: 2545557195039797645
-      barongsway_idle_10: 8600065628528498564
-      barongsway_idle_11: -3814786352557257809
-      barongsway_idle_2: 4461303353952689322
-      barongsway_idle_3: 5893947452166264871
-      barongsway_idle_4: -4262586079457898865
-      barongsway_idle_5: -5307021841479243376
-      barongsway_idle_6: -4672216773415835092
-      barongsway_idle_7: 4266507606625327128
-      barongsway_idle_8: -3594208820746007932
-      barongsway_idle_9: -3823870915665598140
+      barongsway_walk_0: 3828000020878650391
+      barongsway_walk_1: 1486891893960771985
+      barongsway_walk_10: 1358321197
+      barongsway_walk_11: -116797571
+      barongsway_walk_2: -5424148844680218734
+      barongsway_walk_3: -6195379672958888291
+      barongsway_walk_4: 7117106649975272909
+      barongsway_walk_5: -8461049508697234667
+      barongsway_walk_6: 1287237685537954514
+      barongsway_walk_7: 3840998045203791879
+      barongsway_walk_8: -5212840388850121255
+      barongsway_walk_9: -5474027178740377226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

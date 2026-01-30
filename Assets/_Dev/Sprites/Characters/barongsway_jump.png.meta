@@ -1,43 +1,58 @@
 fileFormatVersion: 2
-guid: cd32b2b2c5b7e2842857604b50038252
+guid: b328418bb13cc96418485c7c44834b58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1407996884488383585
-    second: barongsway_idle_0
+      213: 4507366114968509234
+    second: barongsway_jump_0
   - first:
-      213: 2545557195039797645
-    second: barongsway_idle_1
+      213: -4156730491218937295
+    second: barongsway_jump_1
   - first:
-      213: 4461303353952689322
-    second: barongsway_idle_2
+      213: -6183954684701923746
+    second: barongsway_jump_2
   - first:
-      213: 5893947452166264871
-    second: barongsway_idle_3
+      213: 6539117059102071698
+    second: barongsway_jump_3
   - first:
-      213: -4262586079457898865
-    second: barongsway_idle_4
+      213: -6641938083154841685
+    second: barongsway_jump_4
   - first:
-      213: -5307021841479243376
-    second: barongsway_idle_5
+      213: 5252411704763000471
+    second: barongsway_jump_5
   - first:
-      213: -4672216773415835092
-    second: barongsway_idle_6
+      213: 218442446829196226
+    second: barongsway_jump_6
   - first:
-      213: 4266507606625327128
-    second: barongsway_idle_7
+      213: -4116038641688528919
+    second: barongsway_jump_7
   - first:
-      213: -3594208820746007932
-    second: barongsway_idle_8
+      213: 3141405620403716343
+    second: barongsway_jump_8
   - first:
-      213: -3823870915665598140
-    second: barongsway_idle_9
+      213: 325373325010944089
+    second: barongsway_jump_9
   - first:
-      213: 8600065628528498564
-    second: barongsway_idle_10
+      213: 4206181540884995608
+    second: barongsway_jump_10
   - first:
-      213: -3814786352557257809
-    second: barongsway_idle_11
+      213: -2245677484039776982
+    second: barongsway_jump_11
+  - first:
+      213: -1034260480276796730
+    second: barongsway_jump_12
+  - first:
+      213: 2841408341541549344
+    second: barongsway_jump_13
+  - first:
+      213: -3027232558074475329
+    second: barongsway_jump_14
+  - first:
+      213: 604673058737804789
+    second: barongsway_jump_15
+  - first:
+      213: 4044742026110958268
+    second: barongsway_jump_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,24 +144,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barongsway_idle_0
+      name: barongsway_jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -161,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f93963f1b4ac57ce0800000000000000
-      internalID: -1407996884488383585
+      spriteID: 23b945bb9916d8e30800000000000000
+      internalID: 4507366114968509234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_1
+      name: barongsway_jump_1
       rect:
         serializedVersion: 2
         x: 32
@@ -183,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8179cd28c2a35320800000000000000
-      internalID: 2545557195039797645
+      spriteID: 13a3cdb34a35056c0800000000000000
+      internalID: -4156730491218937295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_2
+      name: barongsway_jump_2
       rect:
         serializedVersion: 2
         x: 64
@@ -205,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aacdb9f63cbb9ed30800000000000000
-      internalID: 4461303353952689322
+      spriteID: e56aa3f6afd2e2aa0800000000000000
+      internalID: -6183954684701923746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_3
+      name: barongsway_jump_3
       rect:
         serializedVersion: 2
         x: 96
@@ -225,16 +227,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 700d09acdbb728649badf3b6faeabb77
-      internalID: 5893947452166264871
+      spriteID: 29bd97cc15c9fba50800000000000000
+      internalID: 6539117059102071698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_4
+      name: barongsway_jump_4
       rect:
         serializedVersion: 2
         x: 128
@@ -247,16 +249,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 83c4187010b87344c98971bf6a47bf03
-      internalID: -4262586079457898865
+      spriteID: bafaa6df08813d3a0800000000000000
+      internalID: -6641938083154841685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_5
+      name: barongsway_jump_5
       rect:
         serializedVersion: 2
         x: 160
@@ -269,16 +271,82 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5540d110e5a2db34f8d9c0307948c3a9
-      internalID: -5307021841479243376
+      spriteID: 796a084fd9054e840800000000000000
+      internalID: 5252411704763000471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_6
+      name: barongsway_jump_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c31f1f7f30180300800000000000000
+      internalID: 218442446829196226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7bf50c9a4e0e6c0800000000000000
+      internalID: -4116038641688528919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0449394c3889b20800000000000000
+      internalID: 3141405620403716343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_9
       rect:
         serializedVersion: 2
         x: 0
@@ -291,16 +359,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: adfd59e0b738f8441a1c8e970e2fe30e
-      internalID: -4672216773415835092
+      spriteID: 9504aa0b055f38400800000000000000
+      internalID: 325373325010944089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_7
+      name: barongsway_jump_10
       rect:
         serializedVersion: 2
         x: 32
@@ -313,16 +381,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1ce6adb62e9e24844bbd2a254a201322
-      internalID: 4266507606625327128
+      spriteID: 81e514d73db5f5a30800000000000000
+      internalID: 4206181540884995608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_8
+      name: barongsway_jump_11
       rect:
         serializedVersion: 2
         x: 64
@@ -335,16 +403,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d0c874d69ca4eb43923003dada67972
-      internalID: -3594208820746007932
+      spriteID: a2557b3f930c5d0e0800000000000000
+      internalID: -2245677484039776982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_9
+      name: barongsway_jump_12
       rect:
         serializedVersion: 2
         x: 96
@@ -357,16 +425,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e1194f581fb073447a8d6f2e488a74f8
-      internalID: -3823870915665598140
+      spriteID: 6ca60eba29195a1f0800000000000000
+      internalID: -1034260480276796730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_10
+      name: barongsway_jump_13
       rect:
         serializedVersion: 2
         x: 128
@@ -379,16 +447,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 04521393b0ebeb34eae93abe1404d322
-      internalID: 8600065628528498564
+      spriteID: 0257a6b05d5be6720800000000000000
+      internalID: 2841408341541549344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barongsway_idle_11
+      name: barongsway_jump_14
       rect:
         serializedVersion: 2
         x: 160
@@ -401,10 +469,76 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc4973070c1df5d0800000000000000
+      internalID: -3027232558074475329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5d05771fa346800800000000000000
+      internalID: 604673058737804789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaff6a517fc12830800000000000000
+      internalID: 4044742026110958268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barongsway_jump_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e32e7987ea63cb4dbceeecb952ab142
-      internalID: -3814786352557257809
+      spriteID: 5ebca839c051d6447af6f30e971145db
+      internalID: -1976034065
       vertices: []
       indices: 
       edges: []
@@ -413,7 +547,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a1588ac220fb84241b2c0d8cf3ec5a4c
+    spriteID: a924aa711ae1d224d8b8e7c930631cac
     internalID: 0
     vertices: []
     indices: 
@@ -423,18 +557,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      barongsway_idle_0: -1407996884488383585
-      barongsway_idle_1: 2545557195039797645
-      barongsway_idle_10: 8600065628528498564
-      barongsway_idle_11: -3814786352557257809
-      barongsway_idle_2: 4461303353952689322
-      barongsway_idle_3: 5893947452166264871
-      barongsway_idle_4: -4262586079457898865
-      barongsway_idle_5: -5307021841479243376
-      barongsway_idle_6: -4672216773415835092
-      barongsway_idle_7: 4266507606625327128
-      barongsway_idle_8: -3594208820746007932
-      barongsway_idle_9: -3823870915665598140
+      barongsway_jump_0: 4507366114968509234
+      barongsway_jump_1: -4156730491218937295
+      barongsway_jump_10: 4206181540884995608
+      barongsway_jump_11: -2245677484039776982
+      barongsway_jump_12: -1034260480276796730
+      barongsway_jump_13: 2841408341541549344
+      barongsway_jump_14: -3027232558074475329
+      barongsway_jump_15: 604673058737804789
+      barongsway_jump_16: 4044742026110958268
+      barongsway_jump_17: -1976034065
+      barongsway_jump_2: -6183954684701923746
+      barongsway_jump_3: 6539117059102071698
+      barongsway_jump_4: -6641938083154841685
+      barongsway_jump_5: 5252411704763000471
+      barongsway_jump_6: 218442446829196226
+      barongsway_jump_7: -4116038641688528919
+      barongsway_jump_8: 3141405620403716343
+      barongsway_jump_9: 325373325010944089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
