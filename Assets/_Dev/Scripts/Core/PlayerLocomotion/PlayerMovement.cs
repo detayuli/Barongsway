@@ -58,6 +58,7 @@ namespace Barongslay.Core.PlayerLocomotion
 
                 float g = Mathf.Abs(Physics2D.gravity.y * rb.gravityScale);
                 float jumpVelocity = Mathf.Sqrt(2f * g * jumpHeight);
+                audiomanager.Instance.PlaySFX(audiomanager.Instance.JumpSound);
 
                 rb.linearVelocity = new Vector2(
                     rb.linearVelocity.x,
