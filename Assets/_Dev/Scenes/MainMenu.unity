@@ -1023,6 +1023,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 195580239}
     m_Modifications:
     - target: {fileID: 879401149669919925, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 5464182072581577839, guid: afca42e64eed94343bb780154a0c8ebb, type: 3}
+    - target: {fileID: 879401149669919925, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 879401149669919925, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 7300430692542977507, guid: afca42e64eed94343bb780154a0c8ebb, type: 3}
+    - target: {fileID: 879401149669919925, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 7300430692542977507, guid: afca42e64eed94343bb780154a0c8ebb, type: 3}
+    - target: {fileID: 879401149669919925, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1154,8 +1170,13 @@ PrefabInstance:
       propertyPath: m_text
       value: Start
       objectReference: {fileID: 0}
+    - target: {fileID: 8860385975620824823, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -358834537457626117, guid: afca42e64eed94343bb780154a0c8ebb, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8956074893735381762, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed014c54bb9f44c46a96b98e43517105, type: 3}
