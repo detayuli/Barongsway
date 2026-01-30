@@ -280,10 +280,10 @@ MonoBehaviour:
   sceneMusicMappings:
   - sceneNames:
     - MainMenu
-    musicClip: {fileID: 8300000, guid: 6175312beaad28245aba861e6432f7ae, type: 3}
+    musicClip: {fileID: 8300000, guid: b3bbc07a17606cd47979a5315e32ff08, type: 3}
   - sceneNames:
     - Level 1
-    musicClip: {fileID: 8300000, guid: b3bbc07a17606cd47979a5315e32ff08, type: 3}
+    musicClip: {fileID: 8300000, guid: 6175312beaad28245aba861e6432f7ae, type: 3}
 --- !u!1001 &1001282750
 PrefabInstance:
   m_ObjectHideFlags: 0
