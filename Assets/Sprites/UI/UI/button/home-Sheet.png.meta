@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 4f73f43373554f64884e2888b0eff963
+guid: 3b1db131e57f98541964e1bdcbbd7511
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2916893343162967920
-    second: button ui-Sheet_0
+      213: -7731250394619797864
+    second: home-Sheet_0
   - first:
-      213: -6920790537654492068
-    second: button ui-Sheet_1
+      213: -8036933327566010317
+    second: home-Sheet_1
   - first:
-      213: -4611994840420000496
-    second: button ui-Sheet_2
+      213: -2436178903015057168
+    second: home-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button ui-Sheet_0
+      name: home-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 35
-        width: 60
-        height: 23
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0772eee8a03ea7820800000000000000
-      internalID: 2916893343162967920
+      spriteID: 89e961f5ab415b490800000000000000
+      internalID: -7731250394619797864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button ui-Sheet_1
+      name: home-Sheet_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 35
-        width: 60
-        height: 22
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5428368ca964ff90800000000000000
-      internalID: -6920790537654492068
+      spriteID: 3380ee658b3177090800000000000000
+      internalID: -8036933327566010317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: button ui-Sheet_2
+      name: home-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 60
-        height: 21
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01dd4d6c027eeffb0800000000000000
-      internalID: -4611994840420000496
+      spriteID: 0f89c74f134f03ed0800000000000000
+      internalID: -2436178903015057168
       vertices: []
       indices: 
       edges: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8292194bca69b454c8541be04226c893
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      button ui-Sheet_0: 2916893343162967920
-      button ui-Sheet_1: -6920790537654492068
-      button ui-Sheet_2: -4611994840420000496
+      home-Sheet_0: -7731250394619797864
+      home-Sheet_1: -8036933327566010317
+      home-Sheet_2: -2436178903015057168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
