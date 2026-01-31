@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 06d76c9d330836440aab0c7b82a8794e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6646606479050264722
+    second: HAYYAA 152x48_0
+  - first:
+      213: 8226825816782900004
+    second: HAYYAA 152x48_1
+  - first:
+      213: 2165431505137569042
+    second: HAYYAA 152x48_2
+  - first:
+      213: 8511309561362673746
+    second: HAYYAA 152x48_3
+  - first:
+      213: 3366733305581351582
+    second: HAYYAA 152x48_4
+  - first:
+      213: -1922462705623031111
+    second: HAYYAA 152x48_5
+  - first:
+      213: -5838543055808357373
+    second: HAYYAA 152x48_6
+  - first:
+      213: -6695762582674765196
+    second: HAYYAA 152x48_7
+  - first:
+      213: -5974992913430857472
+    second: HAYYAA 152x48_8
+  - first:
+      213: 6551466982222321834
+    second: HAYYAA 152x48_9
+  - first:
+      213: -6982225786769270808
+    second: HAYYAA 152x48_10
+  - first:
+      213: 8716651531246190824
+    second: HAYYAA 152x48_11
+  - first:
+      213: 236749040388061420
+    second: HAYYAA 152x48_12
+  - first:
+      213: -8852481150206672218
+    second: HAYYAA 152x48_13
+  - first:
+      213: 7277161140830156858
+    second: HAYYAA 152x48_14
+  - first:
+      213: 4868807427324254311
+    second: HAYYAA 152x48_15
+  - first:
+      213: 5686259644381816509
+    second: HAYYAA 152x48_16
+  - first:
+      213: -7328801944490181672
+    second: HAYYAA 152x48_17
+  - first:
+      213: 7834290768404929652
+    second: HAYYAA 152x48_18
+  - first:
+      213: 1784554914214607021
+    second: HAYYAA 152x48_19
+  - first:
+      213: 8096135048148316508
+    second: HAYYAA 152x48_20
+  - first:
+      213: -6956045548123130162
+    second: HAYYAA 152x48_21
+  - first:
+      213: 7292433590992830642
+    second: HAYYAA 152x48_22
+  - first:
+      213: -64989483710383263
+    second: HAYYAA 152x48_23
+  - first:
+      213: 4373625039505048826
+    second: HAYYAA 152x48_24
+  - first:
+      213: -6550981667059170923
+    second: HAYYAA 152x48_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HAYYAA 152x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f266e5f9282c3a0800000000000000
+      internalID: -6646606479050264722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b8b562e7e8b2270800000000000000
+      internalID: 8226825816782900004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d0a212b782d0e10800000000000000
+      internalID: 2165431505137569042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250786283fe3e1670800000000000000
+      internalID: 8511309561362673746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9237ac8a1a09be20800000000000000
+      internalID: 3366733305581351582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22769da5a0255e0800000000000000
+      internalID: -1922462705623031111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c18b0560459fea0800000000000000
+      internalID: -5838543055808357373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a815f186fd313a0800000000000000
+      internalID: -6695762582674765196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0093a732a9f841da0800000000000000
+      internalID: -5974992913430857472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8df09528c7bea50800000000000000
+      internalID: 6551466982222321834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e79b0ee3a62a1f90800000000000000
+      internalID: -6982225786769270808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e04bc68264c7f870800000000000000
+      internalID: 8716651531246190824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92336098ee3358428016f369ade4885
+      internalID: 236749040388061420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3ded05c0c8b4b2146917e76c41dce4da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HAYYAA 152x48_0: -6646606479050264722
+      HAYYAA 152x48_1: 8226825816782900004
+      HAYYAA 152x48_10: -6982225786769270808
+      HAYYAA 152x48_11: 8716651531246190824
+      HAYYAA 152x48_12: 236749040388061420
+      HAYYAA 152x48_2: 2165431505137569042
+      HAYYAA 152x48_3: 8511309561362673746
+      HAYYAA 152x48_4: 3366733305581351582
+      HAYYAA 152x48_5: -1922462705623031111
+      HAYYAA 152x48_6: -5838543055808357373
+      HAYYAA 152x48_7: -6695762582674765196
+      HAYYAA 152x48_8: -5974992913430857472
+      HAYYAA 152x48_9: 6551466982222321834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,4 @@
 using Barongslay.Core.PlayerLocomotion.StateMachine;
-using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 namespace Barongslay.Core.PlayerLocomotion
 {
