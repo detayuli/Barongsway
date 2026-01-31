@@ -12,12 +12,14 @@ namespace Barongslay.Core.VictoryDefeat
         public void RunVictory()
         {
             AllowKeyboardInput = false;
+            OnVictory?.Invoke();
             Debug.Log("[VictoryDefeatManager] Run Victory");
         }
 
         public void RunDefeat()
         {
             AllowKeyboardInput = false;
+            OnDefeat?.Invoke();
             Debug.Log("[VictoryDefeatManager] Run Defeat");
         }
     }

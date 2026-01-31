@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 125075112}
   - component: {fileID: 125075111}
   - component: {fileID: 125075116}
+  - component: {fileID: 125075117}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -406,6 +407,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseButton: {fileID: 1902779813}
   pauseMenuUI: {fileID: 421500034}
+--- !u!114 &125075117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125075110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c52d71df818ba41ba7e90829341406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &263919667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,10 +3302,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1262421673}
     m_Modifications:
-    - target: {fileID: 684028707241677338, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3324,18 +3333,6 @@ PrefabInstance:
     - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3385,17 +3382,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1448054700907509908, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
+    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5744629055646745637, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
       propertyPath: m_Name
       value: GameOverPrefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5250539147283668414, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}

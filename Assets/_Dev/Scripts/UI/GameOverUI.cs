@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameOverUI : MonoBehaviour
 {
-    public GameObject gameOverUI;
+    public CanvasGroup gameOverUI;
     void OnEnable()
     {
         VictoryDefeatManager.Instance.OnDefeat += HandleDefeat;
@@ -13,8 +13,17 @@ public class GameOverUI : MonoBehaviour
     {
         VictoryDefeatManager.Instance.OnDefeat -= HandleDefeat;
     }
+    void Start()
+    {
+        gameOverUI.alpha = 0;
+        gameOverUI.interactable = false;
+        gameOverUI.blocksRaycasts = false;
+    }
     void HandleDefeat()
     {
-        gameOverUI.SetActive(true);
+        Debug.Log("[GameOverUI] HandleDefeat");
+        gameOverUI.alpha = 1;
+        gameOverUI.interactable = true;
+        gameOverUI.blocksRaycasts = true;
     }
 }
