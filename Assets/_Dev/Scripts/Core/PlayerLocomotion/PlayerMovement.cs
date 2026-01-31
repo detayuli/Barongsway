@@ -1,4 +1,5 @@
 using Barongslay.Core.PlayerLocomotion.StateMachine;
+using Unity.Android.Gradle.Manifest;
 using UnityEngine;
 namespace Barongslay.Core.PlayerLocomotion
 {
@@ -15,8 +16,17 @@ namespace Barongslay.Core.PlayerLocomotion
         }
         private void FixedUpdate()
         {
+            if (stateContext.FreezeMovement)
+            {
+                HandleTotalStationary();
+                return;
+            }
             HandleMovement();
             HandleJump();
+        }
+        void HandleTotalStationary()
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         }
         void HandleMovement()
         {
