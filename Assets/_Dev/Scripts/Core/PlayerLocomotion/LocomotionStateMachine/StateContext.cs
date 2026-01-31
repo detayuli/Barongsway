@@ -16,6 +16,7 @@ namespace Barongslay.Core.PlayerLocomotion.StateMachine
             states[typeof(GroundedState)] = new GroundedState(this);
             states[typeof(AirborneState)] = new AirborneState(this);
             states[typeof(JumpState)] = new JumpState(this);
+            states[typeof(DeadState)] = new DeadState(this);
             // Add other states similarly
         }
         #endregion
@@ -23,6 +24,8 @@ namespace Barongslay.Core.PlayerLocomotion.StateMachine
         #region Public Properties
         public bool IsGrounded { get; set; }
         public bool JumpPressed { get; set; }
+        public bool FreezeMovement { get; set; }
+        public bool IsDefeated { get; set; }
         #endregion
 
         #region Public Methods
@@ -56,6 +59,10 @@ namespace Barongslay.Core.PlayerLocomotion.StateMachine
         }
         private void Update()
         {
+            if (IsDefeated)
+            {
+                SetState<DeadState>();
+            }
             currentState.Update();
         }
 
