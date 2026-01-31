@@ -37,6 +37,6 @@ namespace Barongslay.Core.PlayerInputs
 		/// <summary>
 		/// Handles the directional input for the player.
 		/// </summary>
-		protected abstract Vector2 DirectionalInput();
+		public abstract Vector2 DirectionalInput();
 	}
 }

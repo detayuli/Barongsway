@@ -17,7 +17,7 @@ namespace Barongslay.Core.PlayerInputs
             }
         }
 
-        protected override Vector2 DirectionalInput()
+        public override Vector2 DirectionalInput()
         {
             float horizontal = 0f;
             float vertical = 0f;

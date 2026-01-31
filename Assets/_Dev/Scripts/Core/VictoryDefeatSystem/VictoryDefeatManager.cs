@@ -6,9 +6,7 @@ namespace Barongslay.Core.VictoryDefeat
     public class VictoryDefeatManager : Singleton<VictoryDefeatManager>
     {
 
-        public bool AllowKeyboardInput { get; set; } = true;
-
-
+        public bool AllowKeyboardInput { get; set; } = true;    
         public Action OnVictory;
         public Action OnDefeat;
         public void RunVictory()

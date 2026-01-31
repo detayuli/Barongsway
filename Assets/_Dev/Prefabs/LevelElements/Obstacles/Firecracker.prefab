@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4814495924891096904}
   - component: {fileID: 5077565489677484867}
   - component: {fileID: 3579461894382078347}
+  - component: {fileID: 5138214724132783991}
   m_Layer: 0
   m_Name: Firecracker
   m_TagString: Untagged
@@ -146,7 +147,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.109616786, y: 0.10555689}
+  m_Offset: {x: 0.05793479, y: -0.027011484}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -156,7 +157,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.61025137, y: 0.4965749}
+  m_Size: {x: 0.4150812, y: 0.23143816}
   m_EdgeRadius: 0
 --- !u!114 &3579461894382078347
 MonoBehaviour:
@@ -170,4 +171,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c996ad3f2254043a823ab20f22bf87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameoverPanel: {fileID: 0}
   _damage: 1
+--- !u!61 &5138214724132783991
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6405350492841571279}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.25224823, y: 0.15834564}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0526316, y: 1}
+    newSize: {x: 1.0526316, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.29036343, y: 0.2929685}
+  m_EdgeRadius: 0
