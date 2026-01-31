@@ -1,49 +1,85 @@
 fileFormatVersion: 2
-guid: 8f125ab6fbee0004ebf6eb0c5bd31dd3
+guid: 06d76c9d330836440aab0c7b82a8794e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1817762452654448452
-    second: KUCINGCINA-Sheet_0
+      213: -6646606479050264722
+    second: HAYYAA 152x48_0
   - first:
-      213: -2744963381450805284
-    second: KUCINGCINA-Sheet_1
+      213: 8226825816782900004
+    second: HAYYAA 152x48_1
   - first:
-      213: -7303762870430709929
-    second: KUCINGCINA-Sheet_2
+      213: 2165431505137569042
+    second: HAYYAA 152x48_2
   - first:
-      213: -4088194352765287031
-    second: KUCINGCINA-Sheet_3
+      213: 8511309561362673746
+    second: HAYYAA 152x48_3
   - first:
-      213: 2987692893714423220
-    second: KUCINGCINA-Sheet_4
+      213: 3366733305581351582
+    second: HAYYAA 152x48_4
   - first:
-      213: 4543234377645492037
-    second: KUCINGCINA-Sheet_5
+      213: -1922462705623031111
+    second: HAYYAA 152x48_5
   - first:
-      213: 1666979927662003111
-    second: KUCINGCINA-Sheet_6
+      213: -5838543055808357373
+    second: HAYYAA 152x48_6
   - first:
-      213: -7462526677865732204
-    second: KUCINGCINA-Sheet_7
+      213: -6695762582674765196
+    second: HAYYAA 152x48_7
   - first:
-      213: -9149200933234578177
-    second: KUCINGCINA-Sheet_8
+      213: -5974992913430857472
+    second: HAYYAA 152x48_8
   - first:
-      213: 2957431786772634592
-    second: KUCINGCINA-Sheet_9
+      213: 6551466982222321834
+    second: HAYYAA 152x48_9
   - first:
-      213: 7302564383928538492
-    second: KUCINGCINA-Sheet_10
+      213: -6982225786769270808
+    second: HAYYAA 152x48_10
   - first:
-      213: 6704777826806172571
-    second: KUCINGCINA-Sheet_11
+      213: 8716651531246190824
+    second: HAYYAA 152x48_11
   - first:
-      213: 6767880383600007374
-    second: KUCINGCINA-Sheet_12
+      213: 236749040388061420
+    second: HAYYAA 152x48_12
   - first:
-      213: 310862733153812826
-    second: KUCINGCINA-Sheet_13
+      213: -8852481150206672218
+    second: HAYYAA 152x48_13
+  - first:
+      213: 7277161140830156858
+    second: HAYYAA 152x48_14
+  - first:
+      213: 4868807427324254311
+    second: HAYYAA 152x48_15
+  - first:
+      213: 5686259644381816509
+    second: HAYYAA 152x48_16
+  - first:
+      213: -7328801944490181672
+    second: HAYYAA 152x48_17
+  - first:
+      213: 7834290768404929652
+    second: HAYYAA 152x48_18
+  - first:
+      213: 1784554914214607021
+    second: HAYYAA 152x48_19
+  - first:
+      213: 8096135048148316508
+    second: HAYYAA 152x48_20
+  - first:
+      213: -6956045548123130162
+    second: HAYYAA 152x48_21
+  - first:
+      213: 7292433590992830642
+    second: HAYYAA 152x48_22
+  - first:
+      213: -64989483710383263
+    second: HAYYAA 152x48_23
+  - first:
+      213: 4373625039505048826
+    second: HAYYAA 152x48_24
+  - first:
+      213: -6550981667059170923
+    second: HAYYAA 152x48_25
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -90,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 86
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,20 +176,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,13 +188,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KUCINGCINA-Sheet_0
+      name: HAYYAA 152x48_0
       rect:
         serializedVersion: 2
-        x: 239
-        y: 4
-        width: 1092
-        height: 896
+        x: 0
+        y: 576
+        width: 152
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,294 +203,272 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44fd28cd15df93910800000000000000
-      internalID: 1817762452654448452
+      spriteID: e6f266e5f9282c3a0800000000000000
+      internalID: -6646606479050264722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KUCINGCINA-Sheet_1
+      name: HAYYAA 152x48_1
       rect:
         serializedVersion: 2
-        x: 1839
+        x: 0
+        y: 528
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b8b562e7e8b2270800000000000000
+      internalID: 8226825816782900004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d0a212b782d0e10800000000000000
+      internalID: 2165431505137569042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250786283fe3e1670800000000000000
+      internalID: 8511309561362673746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9237ac8a1a09be20800000000000000
+      internalID: 3366733305581351582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22769da5a0255e0800000000000000
+      internalID: -1922462705623031111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c18b0560459fea0800000000000000
+      internalID: -5838543055808357373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a815f186fd313a0800000000000000
+      internalID: -6695762582674765196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0093a732a9f841da0800000000000000
+      internalID: -5974992913430857472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8df09528c7bea50800000000000000
+      internalID: 6551466982222321834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e79b0ee3a62a1f90800000000000000
+      internalID: -6982225786769270808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 152
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e04bc68264c7f870800000000000000
+      internalID: 8716651531246190824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAYYAA 152x48_12
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 1077
-        height: 851
+        width: 152
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cdf6b27195ee7e9d0800000000000000
-      internalID: -2744963381450805284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 3534
-        y: 0
-        width: 932
-        height: 851
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7574a48cd52d3aa90800000000000000
-      internalID: -7303762870430709929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 5134
-        y: 0
-        width: 932
-        height: 851
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 985caa675e0d347c0800000000000000
-      internalID: -4088194352765287031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 6734
-        y: 0
-        width: 932
-        height: 881
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bd9ecb7bda667920800000000000000
-      internalID: 2987692893714423220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 8219
-        y: 0
-        width: 1072
-        height: 831
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54707ea689fcc0f30800000000000000
-      internalID: 4543234377645492037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 9774
-        y: 0
-        width: 1102
-        height: 761
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a30004896d422710800000000000000
-      internalID: 1666979927662003111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 11374
-        y: 4
-        width: 1102
-        height: 842
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 497efee4687cf6890800000000000000
-      internalID: -7462526677865732204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 12974
-        y: 4
-        width: 1102
-        height: 882
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffc61ebc932870180800000000000000
-      internalID: -9149200933234578177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 14499
-        y: 0
-        width: 1247
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0eb180a7a88ea0920800000000000000
-      internalID: 2957431786772634592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 16064
-        y: 0
-        width: 1337
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c75da75dd9be75560800000000000000
-      internalID: 7302564383928538492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 17904
-        y: 0
-        width: 887
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9b82b8f8e72c0d50800000000000000
-      internalID: 6704777826806172571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 19534
-        y: 0
-        width: 912
-        height: 900
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec810d2e9575ced50800000000000000
-      internalID: 6767880383600007374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KUCINGCINA-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 21114
-        y: 14
-        width: 827
-        height: 886
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a514a8f3208605400800000000000000
-      internalID: 310862733153812826
+      spriteID: c92336098ee3358428016f369ade4885
+      internalID: 236749040388061420
       vertices: []
       indices: 
       edges: []
@@ -476,7 +477,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3ded05c0c8b4b2146917e76c41dce4da
     internalID: 0
     vertices: []
     indices: 
@@ -486,20 +487,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      KUCINGCINA-Sheet_0: 1817762452654448452
-      KUCINGCINA-Sheet_1: -2744963381450805284
-      KUCINGCINA-Sheet_10: 7302564383928538492
-      KUCINGCINA-Sheet_11: 6704777826806172571
-      KUCINGCINA-Sheet_12: 6767880383600007374
-      KUCINGCINA-Sheet_13: 310862733153812826
-      KUCINGCINA-Sheet_2: -7303762870430709929
-      KUCINGCINA-Sheet_3: -4088194352765287031
-      KUCINGCINA-Sheet_4: 2987692893714423220
-      KUCINGCINA-Sheet_5: 4543234377645492037
-      KUCINGCINA-Sheet_6: 1666979927662003111
-      KUCINGCINA-Sheet_7: -7462526677865732204
-      KUCINGCINA-Sheet_8: -9149200933234578177
-      KUCINGCINA-Sheet_9: 2957431786772634592
+      HAYYAA 152x48_0: -6646606479050264722
+      HAYYAA 152x48_1: 8226825816782900004
+      HAYYAA 152x48_10: -6982225786769270808
+      HAYYAA 152x48_11: 8716651531246190824
+      HAYYAA 152x48_12: 236749040388061420
+      HAYYAA 152x48_2: 2165431505137569042
+      HAYYAA 152x48_3: 8511309561362673746
+      HAYYAA 152x48_4: 3366733305581351582
+      HAYYAA 152x48_5: -1922462705623031111
+      HAYYAA 152x48_6: -5838543055808357373
+      HAYYAA 152x48_7: -6695762582674765196
+      HAYYAA 152x48_8: -5974992913430857472
+      HAYYAA 152x48_9: 6551466982222321834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
