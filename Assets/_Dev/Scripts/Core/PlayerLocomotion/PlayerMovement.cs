@@ -32,6 +32,14 @@ namespace Barongslay.Core.PlayerLocomotion
             Vector2 velocity = rb.linearVelocity;
             velocity.x = horizontalInput * moveSpeed;
             rb.linearVelocity = velocity;
+            if (rb.linearVelocity.x != 0)
+            {
+                audiomanager.Instance.HandleWalking(true);
+            }
+            else
+            {
+                audiomanager.Instance.HandleWalking(false);
+            }
         }
 
         bool isJumpPressed = false;

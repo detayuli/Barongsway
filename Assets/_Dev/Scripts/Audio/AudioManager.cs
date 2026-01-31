@@ -16,6 +16,7 @@ public class audiomanager : MonoBehaviour
     public AudioClip walkSound;
     public AudioClip WinSound;
     public AudioClip JumpSound;
+    public AudioClip LoseSound;
     
 
     [Header("---------- Scene Music Mapping ----------")]

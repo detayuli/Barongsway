@@ -13,6 +13,7 @@ namespace Barongslay.Core.VictoryDefeat
         {
             AllowKeyboardInput = false;
             OnVictory?.Invoke();
+            audiomanager.Instance.PlaySFX(audiomanager.Instance.WinSound);
             Debug.Log("[VictoryDefeatManager] Run Victory");
         }
 
@@ -20,6 +21,7 @@ namespace Barongslay.Core.VictoryDefeat
         {
             AllowKeyboardInput = false;
             OnDefeat?.Invoke();
+            audiomanager.Instance.PlaySFX(audiomanager.Instance.LoseSound);
             Debug.Log("[VictoryDefeatManager] Run Defeat");
         }
     }
