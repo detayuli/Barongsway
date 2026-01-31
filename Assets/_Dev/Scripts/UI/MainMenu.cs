@@ -16,4 +16,10 @@ public class MainMenu : MonoBehaviour
         // Add logic to quit the game
         Application.Quit();
     }
+
+    public void CreditScene()
+    {
+        // SceneManager.LoadScene("CreditScene");
+        audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
+    }
 }
