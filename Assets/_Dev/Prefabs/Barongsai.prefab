@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3363080907626039067}
   - component: {fileID: 686985241835058263}
   - component: {fileID: 5144143298291459835}
+  - component: {fileID: 3090126185449390995}
   m_Layer: 0
   m_Name: Rope
   m_TagString: Untagged
@@ -122,6 +123,28 @@ MonoBehaviour:
   anchorB: {fileID: 6589866409601712913}
   spriteWidthInUnits: 1
   thickness: 1
+--- !u!95 &3090126185449390995
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604127007843785689}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80e1b0b4fdf5fba4eaadd8401e259aad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4758040951096631795
 GameObject:
   m_ObjectHideFlags: 0

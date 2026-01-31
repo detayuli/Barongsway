@@ -127,9 +127,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5462883217491491895}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ad926bb66613a564da9bfe9cd1af7393, type: 2}
+  m_Controller: {fileID: 9100000, guid: cd82c5bd2c112bd48884337fbbf900ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -189,6 +189,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 3958195016092118447, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_Color.b
       value: 0.23921567
@@ -204,6 +212,14 @@ PrefabInstance:
     - target: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_Name
       value: PlayerTwo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.449
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2283015159793203918, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}

@@ -127,9 +127,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7046626188570655814}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 83252a4afad4d884989394a37a95b22a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 92fdfed57849f804b9944c696e84390f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -189,9 +189,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.302
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.461
+      objectReference: {fileID: 0}
     - target: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_Name
       value: PlayerOne
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.456
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2283015159793203918, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
