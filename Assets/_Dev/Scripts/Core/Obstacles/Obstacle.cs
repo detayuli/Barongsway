@@ -6,12 +6,18 @@ namespace Barongslay.Core.Obstacles
     public class Obstacle : MonoBehaviour
     {
         [SerializeField] private int _damage = 1;
+        [SerializeField] private bool doesDamage = true;
+        public bool DoesDamage { get => doesDamage; set => doesDamage = value; }
         private void Start()
         {
             GetComponent<BoxCollider2D>().isTrigger = true;
         }
-        void OnTriggerEnter2D(Collider2D collision)
+        void OnTriggerStay2D(Collider2D collision)
         {
+            if (!doesDamage)
+            {
+                return;
+            }
             collision.GetComponent<IDamagable>().TakeDamage(_damage);
         }
     }

@@ -5,6 +5,171 @@ TextureImporter:
   - first:
       213: -3471231608375782767
     second: Sponsor Horizontal_0
+  - first:
+      213: 5170018395458984584
+    second: Sponsor Horizontal_1
+  - first:
+      213: -8798471480837046684
+    second: Sponsor Horizontal_2
+  - first:
+      213: -1885909388398121668
+    second: Sponsor Horizontal_3
+  - first:
+      213: 2841308906578481681
+    second: Sponsor Horizontal_4
+  - first:
+      213: 5368091478576261306
+    second: Sponsor Horizontal_5
+  - first:
+      213: 8950581700354333648
+    second: Sponsor Horizontal_6
+  - first:
+      213: -2747335215167403090
+    second: Sponsor Horizontal_7
+  - first:
+      213: -3320764591550391266
+    second: Sponsor Horizontal_8
+  - first:
+      213: -6966316245014527989
+    second: Sponsor Horizontal_9
+  - first:
+      213: 3356632100626117285
+    second: Sponsor Horizontal_10
+  - first:
+      213: -5957936612939347972
+    second: Sponsor Horizontal_11
+  - first:
+      213: -4102038746555479985
+    second: Sponsor Horizontal_12
+  - first:
+      213: -3138253477219648800
+    second: Sponsor Horizontal_13
+  - first:
+      213: -1234691328894617881
+    second: Sponsor Horizontal_14
+  - first:
+      213: 5043421419658034853
+    second: Sponsor Horizontal_15
+  - first:
+      213: 1617927065160889975
+    second: Sponsor Horizontal_16
+  - first:
+      213: -47024292410084611
+    second: Sponsor Horizontal_17
+  - first:
+      213: -1393577171951597826
+    second: Sponsor Horizontal_18
+  - first:
+      213: 8324290811420281073
+    second: Sponsor Horizontal_19
+  - first:
+      213: 572115682455134150
+    second: Sponsor Horizontal_20
+  - first:
+      213: -5412032278507793464
+    second: Sponsor Horizontal_21
+  - first:
+      213: 7764732156130837900
+    second: Sponsor Horizontal_22
+  - first:
+      213: 7122654843681475851
+    second: Sponsor Horizontal_23
+  - first:
+      213: -3169381801805890628
+    second: Sponsor Horizontal_24
+  - first:
+      213: -2523663364832688229
+    second: Sponsor Horizontal_25
+  - first:
+      213: 974909986181719801
+    second: Sponsor Horizontal_26
+  - first:
+      213: -2775141658936189605
+    second: Sponsor Horizontal_27
+  - first:
+      213: 6306693723565787812
+    second: Sponsor Horizontal_28
+  - first:
+      213: -7115324843709893641
+    second: Sponsor Horizontal_29
+  - first:
+      213: 2294111535499667767
+    second: Sponsor Horizontal_30
+  - first:
+      213: 6913579006239299781
+    second: Sponsor Horizontal_31
+  - first:
+      213: -7978335604875374
+    second: Sponsor Horizontal_32
+  - first:
+      213: 3288123800467541969
+    second: Sponsor Horizontal_33
+  - first:
+      213: 5979390063710180385
+    second: Sponsor Horizontal_34
+  - first:
+      213: 2308656628093042715
+    second: Sponsor Horizontal_35
+  - first:
+      213: -1420225911334403054
+    second: Sponsor Horizontal_36
+  - first:
+      213: -5215492146641360687
+    second: Sponsor Horizontal_37
+  - first:
+      213: -8032190762131065543
+    second: Sponsor Horizontal_38
+  - first:
+      213: -8196981781262268976
+    second: Sponsor Horizontal_39
+  - first:
+      213: 8839610060448859616
+    second: Sponsor Horizontal_40
+  - first:
+      213: -8065951550745719386
+    second: Sponsor Horizontal_41
+  - first:
+      213: 6539787161838005480
+    second: Sponsor Horizontal_42
+  - first:
+      213: -1070731591313904572
+    second: Sponsor Horizontal_43
+  - first:
+      213: -3560127634627421761
+    second: Sponsor Horizontal_44
+  - first:
+      213: -1367729146156760670
+    second: Sponsor Horizontal_45
+  - first:
+      213: 1238878772579693805
+    second: Sponsor Horizontal_46
+  - first:
+      213: 7449580501500512121
+    second: Sponsor Horizontal_47
+  - first:
+      213: -4008707320503005816
+    second: Sponsor Horizontal_48
+  - first:
+      213: -8302519344937514133
+    second: Sponsor Horizontal_49
+  - first:
+      213: 6170070897603444795
+    second: Sponsor Horizontal_50
+  - first:
+      213: -6931954315757252858
+    second: Sponsor Horizontal_51
+  - first:
+      213: -5003743058671781395
+    second: Sponsor Horizontal_52
+  - first:
+      213: -1287210588600117451
+    second: Sponsor Horizontal_53
+  - first:
+      213: 8475546830547764619
+    second: Sponsor Horizontal_54
+  - first:
+      213: -1611773944290000628
+    second: Sponsor Horizontal_55
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +202,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,12 +211,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 2048
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +240,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,7 +290,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4d7d8fa77fc905e488d263fa06ee6917
     internalID: 0
     vertices: []
     indices: 
