@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 363812803754872552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.398, y: -0.211, z: 0}
+  m_LocalPosition: {x: 0, y: -0.173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -127,7 +127,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7046626188570655814}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 83252a4afad4d884989394a37a95b22a, type: 2}
   m_CullingMode: 0
@@ -151,15 +151,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.53
+      value: 3.1993184
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4
+      value: -0.67927027
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.036782824
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -167,15 +167,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1476152405434839776, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -193,7 +193,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerOne
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2283015159793203918, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
     m_RemovedGameObjects:
     - {fileID: 810621237675925448, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
     m_AddedGameObjects:
@@ -207,6 +208,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2821884462394559182}
+    - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41973353618123112}
   m_SourcePrefab: {fileID: 100100000, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
 --- !u!1 &6295818812762014056 stripped
 GameObject:
@@ -226,6 +230,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 8378379400284859528}
+--- !u!70 &41973353618123112
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295818812762014056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.013388157, y: 0.028350234}
+  m_Size: {x: 0.7528887, y: 0.9879267}
+  m_Direction: 0
 --- !u!114 &8378379400284859528 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1497962709437939178, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
