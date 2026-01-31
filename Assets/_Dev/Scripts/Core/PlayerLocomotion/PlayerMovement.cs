@@ -34,11 +34,11 @@ namespace Barongslay.Core.PlayerLocomotion
             rb.linearVelocity = velocity;
             if (rb.linearVelocity.x != 0)
             {
-                audiomanager.Instance.HandleWalking(true);
+                audiomanager.Instance?.HandleWalking(true);
             }
             else
             {
-                audiomanager.Instance.HandleWalking(false);
+                audiomanager.Instance?.HandleWalking(false);
             }
         }
 
