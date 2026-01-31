@@ -25,13 +25,21 @@ namespace Barongslay.Core.PlayerLocomotion
         }
         void HandleTotalStationary()
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(0, 0);
         }
         void HandleMovement()
         {
             Vector2 velocity = rb.linearVelocity;
             velocity.x = horizontalInput * moveSpeed;
             rb.linearVelocity = velocity;
+            if (rb.linearVelocity.x != 0)
+            {
+                audiomanager.Instance.HandleWalking(true);
+            }
+            else
+            {
+                audiomanager.Instance.HandleWalking(false);
+            }
         }
 
         bool isJumpPressed = false;
