@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5077565489677484867}
   - component: {fileID: 3579461894382078347}
   - component: {fileID: 5138214724132783991}
+  - component: {fileID: 177314267738251963}
   m_Layer: 0
   m_Name: Firecracker
   m_TagString: Untagged
@@ -171,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c996ad3f2254043a823ab20f22bf87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameoverPanel: {fileID: 0}
   _damage: 1
 --- !u!61 &5138214724132783991
 BoxCollider2D:
@@ -219,3 +219,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.29036343, y: 0.2929685}
   m_EdgeRadius: 0
+--- !u!114 &177314267738251963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6405350492841571279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d363b1eca2c064b48a3083e349550b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 4814495924891096904}
+  countDown: 1
+  obstacle: {fileID: 3579461894382078347}
