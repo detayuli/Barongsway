@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 928cb57798ce64747898b0931648cf10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5972056853891394405
+    second: Sponsor_Horizontal-removebg_0
+  - first:
+      213: 1317310434577336597
+    second: Sponsor_Horizontal-removebg_1
+  - first:
+      213: 7513889593903123913
+    second: Sponsor_Horizontal-removebg_2
+  - first:
+      213: -1703281375677429404
+    second: Sponsor_Horizontal-removebg_3
+  - first:
+      213: 663489766280094694
+    second: Sponsor_Horizontal-removebg_4
+  - first:
+      213: -111193253179488637
+    second: Sponsor_Horizontal-removebg_5
+  - first:
+      213: -1330975311193992784
+    second: Sponsor_Horizontal-removebg_6
+  - first:
+      213: 66634800658966120
+    second: Sponsor_Horizontal-removebg_7
+  - first:
+      213: 827519415944721358
+    second: Sponsor_Horizontal-removebg_8
+  - first:
+      213: 8491757935452716344
+    second: Sponsor_Horizontal-removebg_9
+  - first:
+      213: -6140501804371468793
+    second: Sponsor_Horizontal-removebg_10
+  - first:
+      213: 2697507509444101421
+    second: Sponsor_Horizontal-removebg_11
+  - first:
+      213: 3004574633664935774
+    second: Sponsor_Horizontal-removebg_12
+  - first:
+      213: 2523789329359844519
+    second: Sponsor_Horizontal-removebg_13
+  - first:
+      213: -7344283429251101506
+    second: Sponsor_Horizontal-removebg_14
+  - first:
+      213: 3200932337637357795
+    second: Sponsor_Horizontal-removebg_15
+  - first:
+      213: -3244220076527818265
+    second: Sponsor_Horizontal-removebg_16
+  - first:
+      213: -4101155466520922476
+    second: Sponsor_Horizontal-removebg_17
+  - first:
+      213: 4725116982938132132
+    second: Sponsor_Horizontal-removebg_18
+  - first:
+      213: -1750294613350533348
+    second: Sponsor_Horizontal-removebg_19
+  - first:
+      213: 1320305702932195542
+    second: Sponsor_Horizontal-removebg_20
+  - first:
+      213: 5406305445954083567
+    second: Sponsor_Horizontal-removebg_21
+  - first:
+      213: 3033366442490624329
+    second: Sponsor_Horizontal-removebg_22
+  - first:
+      213: 5878115545432008746
+    second: Sponsor_Horizontal-removebg_23
+  - first:
+      213: 7723087151035407867
+    second: Sponsor_Horizontal-removebg_24
+  - first:
+      213: 2574086399849193022
+    second: Sponsor_Horizontal-removebg_25
+  - first:
+      213: -5797788538794607194
+    second: Sponsor_Horizontal-removebg_26
+  - first:
+      213: 7789536919357515308
+    second: Sponsor_Horizontal-removebg_27
+  - first:
+      213: 2073976530956311690
+    second: Sponsor_Horizontal-removebg_28
+  - first:
+      213: -6665466089002206918
+    second: Sponsor_Horizontal-removebg_29
+  - first:
+      213: 6774425829984746143
+    second: Sponsor_Horizontal-removebg_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 438
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sponsor_Horizontal-removebg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 570
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94dd55ceedfe1da0800000000000000
+      internalID: -5972056853891394405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de0f2e9e5e2909140b058ba6cc6377c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sponsor_Horizontal-removebg_0: -5972056853891394405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
