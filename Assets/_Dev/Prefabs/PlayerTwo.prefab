@@ -107,13 +107,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1407996884488383585, guid: cd32b2b2c5b7e2842857604b50038252, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.59375, y: 1}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -191,11 +191,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.179
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2833520319108418312, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 3958195016092118447, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_Color.b
@@ -215,11 +215,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29
+      value: 0.181
       objectReference: {fileID: 0}
     - target: {fileID: 5233838235177072499, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.449
+      value: -0.58
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2283015159793203918, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
@@ -242,7 +242,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4721212884731718531}
+    - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9067481938047799997}
   m_SourcePrefab: {fileID: 100100000, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+--- !u!50 &2837339016503780241 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8283783649773289983, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+  m_PrefabInstance: {fileID: 6167021745438810734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4709776472857452420 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1497962709437939178, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
@@ -340,3 +348,18 @@ MonoBehaviour:
   _health: {fileID: 11400000, guid: 8e59316257002674e85c8e616deb94e1, type: 2}
   _maxHealth: 1
   stateContext: {fileID: 5692085628819861312}
+--- !u!114 &9067481938047799997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081552839484519012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd615015adb08748a4e1ceaa46be12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5909833345178968186}
+  stateContext: {fileID: 5692085628819861312}
+  rb: {fileID: 2837339016503780241}

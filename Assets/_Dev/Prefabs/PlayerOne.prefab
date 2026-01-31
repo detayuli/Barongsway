@@ -107,7 +107,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4461303353952689322, guid: cd32b2b2c5b7e2842857604b50038252, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -230,7 +230,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7196611637045744939}
+    - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8146785188937760423}
   m_SourcePrefab: {fileID: 100100000, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+--- !u!50 &1331314922592964765 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8283783649773289983, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+  m_PrefabInstance: {fileID: 6956986691495760226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6295818812762014056 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
@@ -301,6 +309,21 @@ MonoBehaviour:
   _health: {fileID: 11400000, guid: 8e59316257002674e85c8e616deb94e1, type: 2}
   _maxHealth: 1
   stateContext: {fileID: 8928349614984993868}
+--- !u!114 &8146785188937760423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295818812762014056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd615015adb08748a4e1ceaa46be12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3740837623506434550}
+  stateContext: {fileID: 8928349614984993868}
+  rb: {fileID: 1331314922592964765}
 --- !u!114 &8378379400284859528 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1497962709437939178, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
