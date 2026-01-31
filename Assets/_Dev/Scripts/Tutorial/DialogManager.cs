@@ -28,5 +28,6 @@ public class DialogManager : MonoBehaviour
     {
         if (dialogPanel == null) return;
         dialogPanel.SetActive(false);
+        dialogText.text = "";
     }
 }

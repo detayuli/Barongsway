@@ -5,6 +5,7 @@ namespace Barongslay.Core.Obstacles
     [RequireComponent(typeof(BoxCollider2D))]
     public class Obstacle : MonoBehaviour
     {
+        public GameObject gameoverPanel;
         [SerializeField] private int _damage = 1;
         private void Start()
         {
@@ -13,6 +14,7 @@ namespace Barongslay.Core.Obstacles
         void OnTriggerEnter2D(Collider2D collision)
         {
             collision.GetComponent<IDamagable>().TakeDamage(_damage);
+            gameoverPanel.SetActive(true);
         }
     }
 }
