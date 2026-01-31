@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Barongslay.Core.PlayerLocomotion;
+using Barongslay.Core.VictoryDefeat;
 namespace Barongslay.Core.PlayerInputs
 {
 	public abstract class PlayerInput : MonoBehaviour
@@ -13,6 +14,10 @@ namespace Barongslay.Core.PlayerInputs
 
 		protected void Update()
 		{
+			if (!VictoryDefeatManager.Instance.AllowKeyboardInput)
+			{
+				return;
+			}
 			// Vector2 directionalInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 			Vector2 directionalInput = DirectionalInput();
 			playerMovement.SetHorizontalInput(directionalInput.x);
@@ -32,6 +37,6 @@ namespace Barongslay.Core.PlayerInputs
 		/// <summary>
 		/// Handles the directional input for the player.
 		/// </summary>
-		protected abstract Vector2 DirectionalInput();
+		public abstract Vector2 DirectionalInput();
 	}
 }

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3363080907626039067}
   - component: {fileID: 686985241835058263}
   - component: {fileID: 5144143298291459835}
+  - component: {fileID: 3090126185449390995}
+  - component: {fileID: 859275220075692142}
   m_Layer: 0
   m_Name: Rope
   m_TagString: Untagged
@@ -122,6 +124,43 @@ MonoBehaviour:
   anchorB: {fileID: 6589866409601712913}
   spriteWidthInUnits: 1
   thickness: 1
+--- !u!95 &3090126185449390995
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604127007843785689}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80e1b0b4fdf5fba4eaadd8401e259aad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &859275220075692142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604127007843785689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd615015adb08748a4e1ceaa46be12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3090126185449390995}
+  stateContext: {fileID: 2893103509499752442}
+  rb: {fileID: 4735613234782053163}
 --- !u!1 &4758040951096631795
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +377,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8426364937071338370, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
   m_PrefabInstance: {fileID: 6035246794827772854}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2893103509499752442 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8928349614984993868, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}
+  m_PrefabInstance: {fileID: 6035246794827772854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff81aeed6a7640f45ab5f91546e9a6f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &4735613234782053163 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 1331314922592964765, guid: e1c2beefb7e123546b65b2678d9f47f6, type: 3}

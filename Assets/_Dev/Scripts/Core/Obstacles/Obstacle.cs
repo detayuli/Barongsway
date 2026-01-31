@@ -2,7 +2,7 @@ using Barongslay.Core.Health;
 using UnityEngine;
 namespace Barongslay.Core.Obstacles
 {
-    [RequireComponent(typeof(BoxCollider2D))]
+    [RequireComponent(typeof(Collider2D))]
     public class Obstacle : MonoBehaviour
     {
         [SerializeField] private int _damage = 1;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b328418bb13cc96418485c7c44834b58
+guid: e4aad9dc0f4954a4da36c1c25eebbbe5
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -38,21 +38,6 @@ TextureImporter:
   - first:
       213: -2245677484039776982
     second: barongsway_jump_11
-  - first:
-      213: -1034260480276796730
-    second: barongsway_jump_12
-  - first:
-      213: 2841408341541549344
-    second: barongsway_jump_13
-  - first:
-      213: -3027232558074475329
-    second: barongsway_jump_14
-  - first:
-      213: 604673058737804789
-    second: barongsway_jump_15
-  - first:
-      213: 4044742026110958268
-    second: barongsway_jump_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -144,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -156,7 +154,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,11 +172,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 35
         width: 32
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,7 +198,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,7 +220,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,11 +238,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
+        y: 35
         width: 32
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,7 +264,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,7 +286,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,11 +304,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 32
+        y: 35
         width: 32
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,7 +330,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,7 +352,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,7 +374,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,7 +396,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,15 +418,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ca60eba29195a1f0800000000000000
-      internalID: -1034260480276796730
+      spriteID: ee3717efa8c1f0049b5720ca6645da02
+      internalID: 1149048759
       vertices: []
       indices: 
       edges: []
@@ -438,19 +436,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 2
         width: 32
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0257a6b05d5be6720800000000000000
-      internalID: 2841408341541549344
+      spriteID: 7f049318e79dc89458cdb1f25df01238
+      internalID: 909517489
       vertices: []
       indices: 
       edges: []
@@ -464,15 +462,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbc4973070c1df5d0800000000000000
-      internalID: -3027232558074475329
+      spriteID: 505d39d3ec64fda4ab6991baa39e1006
+      internalID: -1344636897
       vertices: []
       indices: 
       edges: []
@@ -486,15 +484,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5f5d05771fa346800800000000000000
-      internalID: 604673058737804789
+      spriteID: 57b03fb5274816343a7c9f5e2ba34190
+      internalID: 99358598
       vertices: []
       indices: 
       edges: []
@@ -504,19 +502,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 0
+        y: 3
         width: 32
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cbaff6a517fc12830800000000000000
-      internalID: 4044742026110958268
+      spriteID: 73aeef94e35b95048b63d0bcab26d0b2
+      internalID: -614285809
       vertices: []
       indices: 
       edges: []
@@ -530,15 +528,15 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ebca839c051d6447af6f30e971145db
-      internalID: -1976034065
+      spriteID: 774052d6436a2134ea27b8636eca4c7c
+      internalID: 1456146335
       vertices: []
       indices: 
       edges: []
@@ -547,7 +545,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a924aa711ae1d224d8b8e7c930631cac
+    spriteID: 00112f238e0de0a439619ceb8ecaf5df
     internalID: 0
     vertices: []
     indices: 
@@ -561,12 +559,12 @@ TextureImporter:
       barongsway_jump_1: -4156730491218937295
       barongsway_jump_10: 4206181540884995608
       barongsway_jump_11: -2245677484039776982
-      barongsway_jump_12: -1034260480276796730
-      barongsway_jump_13: 2841408341541549344
-      barongsway_jump_14: -3027232558074475329
-      barongsway_jump_15: 604673058737804789
-      barongsway_jump_16: 4044742026110958268
-      barongsway_jump_17: -1976034065
+      barongsway_jump_12: 1149048759
+      barongsway_jump_13: 909517489
+      barongsway_jump_14: -1344636897
+      barongsway_jump_15: 99358598
+      barongsway_jump_16: -614285809
+      barongsway_jump_17: 1456146335
       barongsway_jump_2: -6183954684701923746
       barongsway_jump_3: 6539117059102071698
       barongsway_jump_4: -6641938083154841685
