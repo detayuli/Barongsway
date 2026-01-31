@@ -223,9 +223,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2821884462394559182}
-    - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 41973353618123112}
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
@@ -233,6 +230,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8146785188937760423}
+    - targetCorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2161302345445943025}
   m_SourcePrefab: {fileID: 100100000, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
 --- !u!50 &1331314922592964765 stripped
 Rigidbody2D:
@@ -244,19 +244,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4022580142686556170, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
   m_PrefabInstance: {fileID: 6956986691495760226}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2821884462394559182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6295818812762014056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 662b4c2af97680b4599d6137ccc34440, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMovement: {fileID: 8378379400284859528}
 --- !u!70 &41973353618123112
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -324,6 +311,21 @@ MonoBehaviour:
   animator: {fileID: 3740837623506434550}
   stateContext: {fileID: 8928349614984993868}
   rb: {fileID: 1331314922592964765}
+  playerInput: {fileID: 0}
+  walkGovernor: 0
+--- !u!114 &2161302345445943025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6295818812762014056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376da726b50f48a48806c657e66cb8c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 8378379400284859528}
 --- !u!114 &8378379400284859528 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1497962709437939178, guid: eb2b385a7237a174cb636ff642068d3d, type: 3}
