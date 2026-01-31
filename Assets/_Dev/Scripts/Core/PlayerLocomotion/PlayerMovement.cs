@@ -26,7 +26,7 @@ namespace Barongslay.Core.PlayerLocomotion
         }
         void HandleTotalStationary()
         {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(0, 0);
         }
         void HandleMovement()
         {
