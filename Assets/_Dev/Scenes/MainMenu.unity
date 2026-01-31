@@ -280,6 +280,7 @@ MonoBehaviour:
   walkSound: {fileID: 8300000, guid: e64dce7356cbc4f41b47bab90b9739de, type: 3}
   WinSound: {fileID: 8300000, guid: 31f4601efd718fb448c8c87d15cae26c, type: 3}
   JumpSound: {fileID: 8300000, guid: 394ad81cfd1513a4c8ee4b39fb2cd10f, type: 3}
+  LoseSound: {fileID: 8300000, guid: cbcb432b0fcde124aa34971aa7c2514b, type: 3}
   sceneMusicMappings:
   - sceneNames:
     - MainMenu

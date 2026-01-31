@@ -11,7 +11,6 @@ namespace Barongslay.Core.PlayerLocomotion.StateMachine
 
         public override void Enter()
         {
-            Debug.Log("Entered Jump State");
         }
 
         public override void Exit()

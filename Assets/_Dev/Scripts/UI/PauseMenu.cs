@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
+        audiomanager.Instance.HandleButtonPress();
         Time.timeScale = 0f;
         //audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
         pauseButton.SetActive(false);
@@ -16,6 +17,8 @@ public class PauseMenu : MonoBehaviour
     }
     public void ResumeGame()
     {
+        audiomanager.Instance.HandleButtonPress();
+
         Time.timeScale = 1f;
         //audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
         pauseButton.SetActive(true);
@@ -24,6 +27,8 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartLevel()
     {
+        audiomanager.Instance.HandleButtonPress();
+
         Time.timeScale = 1f;
         //audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -31,6 +36,8 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitToMainMenu()
     {
+        audiomanager.Instance.HandleButtonPress();
+
         Time.timeScale = 1f;
         //audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
         SceneManager.LoadScene("MainMenu");
