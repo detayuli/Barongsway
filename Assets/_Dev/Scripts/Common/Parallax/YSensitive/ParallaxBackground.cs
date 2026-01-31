@@ -13,7 +13,12 @@ namespace Runtime.Parallax.YSensitive
         void Start()
         {
             if (parallaxCamera == null)
-                parallaxCamera = Camera.main.GetComponent<ParallaxCamera>();
+            {
+                if (Camera.main.TryGetComponent<ParallaxCamera>(out ParallaxCamera parcam))
+                {
+                    parallaxCamera = parcam;
+                }
+            }
 
             if (parallaxCamera != null)
                 parallaxCamera.onCameraTranslate += Move;

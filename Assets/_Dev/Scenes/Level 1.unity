@@ -3340,7 +3340,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!224 &1262421673
 RectTransform:
@@ -3464,61 +3464,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1274.1917
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1041.8604
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -3.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -22
-      objectReference: {fileID: 0}
-    - target: {fileID: 3312932377610782917, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_Alpha
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_Interactable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3424994989044859324, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_BlocksRaycasts
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5744629055646745637, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
       propertyPath: m_Name
       value: GameOverPrefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202923051584976699, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202923051584976699, guid: 6412ea3b93bb35f47b44e6efaafa6605, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
