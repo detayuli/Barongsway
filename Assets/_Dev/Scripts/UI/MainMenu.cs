@@ -3,9 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void StartGame()
+    public void toLevelSelect()
     {
-        SceneManager.LoadScene("Level 1");
+        Debug.Log("Start Game button clicked. Loading Level Select scene...");
+        SceneManager.LoadScene("LevelSelect");
         audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
     }
 
@@ -17,9 +18,21 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void SelectLevel(LevelDataSO levelData)
+    {
+        SceneManager.LoadScene(levelData.sceneName);
+        audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
+    }
+
     public void CreditScene()
     {
         // SceneManager.LoadScene("CreditScene");
+        audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
+    }
+
+    public void backToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
         audiomanager.Instance.PlaySFX(audiomanager.Instance.buttonClick);
     }
 }
